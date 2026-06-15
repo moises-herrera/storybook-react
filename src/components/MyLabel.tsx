@@ -26,6 +26,11 @@ interface MyLabelProps {
    * Custom font color (overrides color prop).
    */
   fontColor?: string;
+
+  /**
+   * Custom background color.
+   */
+  backgroundColor?: string;
 }
 
 export const MyLabel: FC<MyLabelProps> = ({
@@ -33,12 +38,16 @@ export const MyLabel: FC<MyLabelProps> = ({
   size = 'normal',
   allCaps = false,
   color = 'primary',
-  fontColor = '',
+  fontColor,
+  backgroundColor = 'transparent',
 }) => {
   return (
     <span
       className={`label ${size} text-${color} ${allCaps ? 'uppercase' : ''}`}
-      style={fontColor ? { color: fontColor } : undefined}
+      style={{
+        color: fontColor,
+        backgroundColor,
+      }}
     >
       {label}
     </span>
