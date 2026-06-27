@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
-import { MyLabel } from '../components/MyLabel';
+import { MyLabel, type MyLabelProps } from '../components/MyLabel';
 
-const meta = {
+const meta: Meta<MyLabelProps> = {
   title: 'UI/labels/MyLabel',
   component: MyLabel,
   tags: ['autodocs'],

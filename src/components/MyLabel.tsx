@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import './MyLabel.css';
 
-interface MyLabelProps {
+export interface MyLabelProps {
   /**
    * Text to display.
    */
