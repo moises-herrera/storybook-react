@@ -35,7 +35,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "clean": "rimraf dist",
-    "copy-assets": "copyfiles -u 1 src/**/*.css dist/src/"
+    "copy-assets": "copyfiles -u 1 src/**/*.css dist/src/",
+    "push:npm": "np"
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
@@ -62,6 +63,7 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "eslint-plugin-storybook": "^10.4.5",
     "globals": "^17.6.0",
+    "np": "^11.2.1",
     "playwright": "^1.61.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
