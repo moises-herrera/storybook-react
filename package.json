@@ -8,9 +8,9 @@
     "dev"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/moises-herrera/storybook-react",
+  "homepage": "https://github.com/moises-herrera/storybook-react#readme",
   "repository": {
-    "url": "https://github.com/moises-herrera/storybook-react",
+    "url": "git+https://github.com/moises-herrera/storybook-react.git",
     "type": "git"
   },
   "files": [
