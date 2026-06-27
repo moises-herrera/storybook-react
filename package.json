@@ -3,6 +3,8 @@
   "private": false,
   "version": "1.0.0",
   "type": "module",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "keywords": [
     "react",
     "dev"
